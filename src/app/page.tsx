@@ -9,41 +9,38 @@ export default function Home() {
     <div className="flex justify-center items-center w-full h-screen">
     <div>
       <h1>Linktree</h1>
-    </div>
     <br />
 
-    <div>
       <img src={minhaFoto.src} alt="minhaFoto" className="w-36 h-36 rounded-full"/>
-    </div>
-<br />
-    <div>
 
-      <div>
-      <FaCode />
+<br />
+
+      <div className="flex justify-center items-center">
+      <FaCode/>
  <a href="">Portfólio</a>
       </div>
 
-      <div>
+      <div className="flex justify-center items-center">
       <FaLinkedinIn />
       <a href="">Linkedin</a>
       </div>
 
-      <div>
+      <div className="flex justify-center items-center">
       <FaGithub />
       <a href="">GitHub</a>
       </div>
 
-      <div>
+      <div className="flex justify-center items-center">
       <FaInstagram />
       <a href="">Instagram</a>
       </div>
 
-      <div>
+      <div className="flex justify-center items-center">
       <FaWhatsapp />
       <a href="">WhatsApp</a>
       </div>
 
-      <div>
+      <div className="flex justify-center items-center">
       <MdAlternateEmail />
       <a href="">E-mail</a>
       </div>
