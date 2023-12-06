@@ -13,8 +13,16 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'custom': ['Roboto', 'sans-serif'],
+        'bebas': ['Bebas Neue', 'sans-serif'],
+        'parisienne': ['Parisienne', 'cursive'],
+        'metal': ['Metal', 'serif']
+      },
     },
   },
   plugins: [],
+
 }
+
 export default config
