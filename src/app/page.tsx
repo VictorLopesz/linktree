@@ -61,18 +61,22 @@ export default function Home() {
             <br />
 
         <Fade cascade damping={0.3}>
-            <a href="">
+            <a href="#" className="disabled-link">
               <div
                 className="
               flex justify-between items-center border 
-              w-80 h-8 m-3 hover:bg-[#D3A01F]
-              text-[#D3A01F] bg-[#35342d72] hover:text-[#000000d0]
-                active:text-white active:bg-[#000000d0] font-bebas
-                ">
+              w-80 h-8 m-3 font-bebas
+                disabled:opacity-75 text-[#d3a01f74]"
+              //   hover:bg-[#D3A01F]
+              //  bg-[#35342d72] hover:text-[#000000d0]
+              //   active:text-white active:bg-[#000000d0] 
+                title="PORTFÓLIO EM DESENVOLVIMENTO "
+                >
                 <div className="">
                   <FaCode className="ml-1" />
                 </div>
-                <div className="flex justify-center items-center w-full">
+                <div className="flex justify-center items-center w-full"
+                >
                   Portfólio
                 </div>
               </div>
@@ -80,7 +84,7 @@ export default function Home() {
             
         
 
-            <a href="">
+            <a href="https://www.linkedin.com/in/lopesvictorh/" target="_blank">
               <div className="
               flex justify-between items-center border 
               ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
@@ -96,7 +100,7 @@ export default function Home() {
             </a>
         
 
-            <a href="">
+            <a href="https://github.com/VictorLopesz" target="_blank">
               <div className="
               flex justify-between items-center border 
               ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
@@ -112,7 +116,7 @@ export default function Home() {
             </a>
         
 
-            <a href="">
+            <a href="https://www.instagram.com/_pleasevictor/" target="_blank">
               <div className="
               flex justify-between items-center border 
               ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
@@ -127,7 +131,7 @@ export default function Home() {
               </div>
             </a>
         
-            <a href="">
+            <a href="https://api.whatsapp.com/send?phone=21980260633" target="_blank">
               <div className="
               flex justify-between items-center border 
               ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
@@ -144,7 +148,7 @@ export default function Home() {
    
  
 
-            <a href="">
+            <a href="mailto:euvictor_h@hotmail.com" target="_blank">
               <div className="
               flex justify-between items-center border 
               ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
