@@ -46,7 +46,6 @@ export default function Home() {
             </h3>
             <br />
             <Fade 
-            direction="down"
             triggerOnce={true}
             duration={2000}
             >
