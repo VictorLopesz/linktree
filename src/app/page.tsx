@@ -23,7 +23,7 @@ export default function Home() {
             <Fade
             direction="down"
             triggerOnce={true}
-            duration={4000}
+            duration={2000}
             >
             <h1 className="text-4xl -mb-4 md:text-3xl lg:text-3xl xl:text-4xl font-bebas text-white">Victor Lopes</h1>
             </Fade>
@@ -46,9 +46,9 @@ export default function Home() {
             </h3>
             <br />
             <Fade 
-            direction="right"
+            direction="down"
             triggerOnce={true}
-            duration={3000}
+            duration={2000}
             >
             <div className="justify-center items-center flex">
               <img
@@ -60,7 +60,7 @@ export default function Home() {
                 </Fade>
             <br />
 
-        <Fade cascade damping={0.3}>
+        <Fade cascade damping={0.2}>
             <a href="#" className="disabled-link">
               <div
                 className="
