@@ -131,7 +131,7 @@ export default function Home() {
               </div>
             </a>
         
-            <a href="https://api.whatsapp.com/send?phone=21980260633" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5521980260633" target="_blank">
               <div className="
               flex justify-between items-center border 
               ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
