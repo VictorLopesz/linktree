@@ -17,7 +17,7 @@ export default function Home() {
     <>
 
       <div className="relative w-full">
-        <div className="flex justify-center absolute z-50 bg-[#0c0c0c] items-center w-full h-screen">
+        <div className="flex justify-center absolute z-50 bg-[#9f9e9e] items-center w-full h-screen">
           <ParticlesContainer />
           <div className="text-center z-50 absolute">
             <Fade
@@ -25,9 +25,11 @@ export default function Home() {
             triggerOnce={true}
             duration={2000}
             >
-            <h1 className="text-4xl -mb-4 md:text-3xl lg:text-3xl xl:text-4xl font-bebas text-white">Victor Lopes</h1>
+            <h1 className="text-4xl -mb-4 md:text-4xl lg:text-5xl xl:text-5xl font-bebas text-white">
+              Victor Lopes
+            </h1>
             </Fade>
-            <h3 className="font-metal text-2xl -mb-4 lg:text-4xl xl:text-3xl text-[#d9c494]">
+            <h1 className="font-metal text-2xl -mb-4 lg:text-4xl xl:text-3xl text-[#000000]">
               <TypeAnimation
                 sequence={[
                   'Desenvolvedor de Software',
@@ -43,7 +45,7 @@ export default function Home() {
                 speed={50}
                 repeat={Infinity}
               />
-            </h3>
+            </h1>
             <br />
             <Fade 
             triggerOnce={true}
@@ -64,15 +66,15 @@ export default function Home() {
               <div
                 className="
               flex justify-between items-center border 
-              w-80 h-8 m-3 font-bebas
-                disabled:opacity-75 text-[#d3a01f74]"
-              //   hover:bg-[#D3A01F]
+              w-80 h-10 m-3 font-bebas rounded-full
+                disabled:opacity-75 text-[#cbcac874]"
+              //   hover:bg-[#cbcac8] 
               //  bg-[#35342d72] hover:text-[#000000d0]
               //   active:text-white active:bg-[#000000d0] 
                 title="PORTFÓLIO EM DESENVOLVIMENTO "
                 >
                 <div className="">
-                  <FaCode className="ml-1" />
+                  <FaCode className="ml-4" />
                 </div>
                 <div className="flex justify-center items-center w-full"
                 >
@@ -86,11 +88,11 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/lopesvictorh/" target="_blank">
               <div className="
               flex justify-between items-center border 
-              ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
-              text-[#D3A01F] bg-[#35342d72] hover:text-[#000000d0]
+              ease-in-out duration-300 w-80 h-10 rounded-full m-3 hover:bg-[#cbcac8]
+              text-[#fefefe] bg-[#35342d72] hover:text-[#000000d0]
               active:text-white active:bg-[#000000d0] font-bebas">
                 <div className="">
-                  <FaLinkedinIn className="ml-1" />
+                  <FaLinkedinIn className="ml-4" />
                 </div>
                 <div className="flex justify-center items-center w-full">
                   Linkedin
@@ -102,11 +104,11 @@ export default function Home() {
             <a href="https://github.com/VictorLopesz" target="_blank">
               <div className="
               flex justify-between items-center border 
-              ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
-              text-[#D3A01F] bg-[#35342d72] hover:text-[#000000d0]
+              ease-in-out duration-300 w-80 h-10 rounded-full m-3 hover:bg-[#cbcac8]
+              text-[#fefefe] bg-[#35342d72] hover:text-[#000000d0]
               active:text-white active:bg-[#000000d0] font-bebas">
                 <div className="">
-                  <FaGithub className="ml-1" />
+                  <FaGithub className="ml-4" />
                 </div>
                 <div className="flex justify-center items-center w-full">
                   GitHub
@@ -118,11 +120,11 @@ export default function Home() {
             <a href="https://www.instagram.com/_pleasevictor/" target="_blank">
               <div className="
               flex justify-between items-center border 
-              ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
-              text-[#D3A01F] bg-[#35342d72] hover:text-[#000000d0]
+              ease-in-out duration-300 w-80 h-10 rounded-full m-3 hover:bg-[#cbcac8]
+              text-[#fefefe] bg-[#35342d72] hover:text-[#000000d0]
               active:text-white active:bg-[#000000d0] font-bebas">
                 <div className="">
-                  <TiSocialInstagram className="ml-1" />
+                  <TiSocialInstagram className="ml-4" />
                 </div>
                 <div className="flex justify-center items-center w-full">
                   Instagram
@@ -133,11 +135,11 @@ export default function Home() {
             <a href="https://api.whatsapp.com/send?phone=5521980260633" target="_blank">
               <div className="
               flex justify-between items-center border 
-              ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
-              text-[#D3A01F] bg-[#35342d72] hover:text-[#000000d0]
+              ease-in-out duration-300 w-80 h-10 rounded-full m-3 hover:bg-[#cbcac8]
+              text-[#fefefe] bg-[#35342d72] hover:text-[#000000d0]
               active:text-white active:bg-[#000000d0] font-bebas">
                 <div className="">
-                  <IoLogoWhatsapp className="ml-1" />
+                  <IoLogoWhatsapp className="ml-4" />
                 </div>
                 <div className="flex justify-center items-center w-full">
                   WhatsApp
@@ -149,12 +151,12 @@ export default function Home() {
 
             <a href="mailto:euvictor_h@hotmail.com" target="_blank">
               <div className="
-              flex justify-between items-center border 
-              ease-in-out duration-300 w-80 h-8 m-3 hover:bg-[#D3A01F]
-              text-[#D3A01F] bg-[#35342d72] hover:text-[#000000d0]
-              active:text-white active:bg-[#000000d0] font-bebas">
+               flex justify-between items-center border 
+               ease-in-out duration-300 w-80 h-10 rounded-full m-3 hover:bg-[#cbcac8]
+               text-[#fefefe] bg-[#35342d72] hover:text-[#000000d0]
+               active:text-white active:bg-[#000000d0] font-bebas">
                 <div className="">
-                  <MdOutlineMarkEmailUnread className="ml-1" />
+                  <MdOutlineMarkEmailUnread className="ml-4" />
                 </div>
                 <div className="flex justify-center items-center w-full">
                   Email
