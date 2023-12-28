@@ -62,22 +62,16 @@ export default function Home() {
             <br />
 
         <Fade cascade damping={0.2}>
-            <a href="#" className="disabled-link">
-              <div
-                className="
+        <a href="https://myportfolio-victorlopes.vercel.app/" target="_blank">
+              <div className="
               flex justify-between items-center border 
-              w-80 h-10 m-3 font-bebas rounded-full
-                disabled:opacity-75 text-[#cbcac874]"
-              //   hover:bg-[#cbcac8] 
-              //  bg-[#35342d72] hover:text-[#000000d0]
-              //   active:text-white active:bg-[#000000d0] 
-                title="PORTFÓLIO EM DESENVOLVIMENTO "
-                >
+              ease-in-out duration-300 w-80 h-10 rounded-full m-3 hover:bg-[#cbcac8]
+              text-[#fefefe] bg-[#35342d72] hover:text-[#000000d0]
+              active:text-white active:bg-[#000000d0] font-bebas">
                 <div className="">
                   <FaCode className="ml-4" />
                 </div>
-                <div className="flex justify-center items-center w-full"
-                >
+                <div className="flex justify-center items-center w-full">
                   Portfólio
                 </div>
               </div>
